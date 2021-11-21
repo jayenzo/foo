@@ -16,15 +16,3 @@ COPY --from=build_Foo /usr/src/app /usr/src/app
 WORKDIR /usr/src/app
 EXPOSE 8080
 CMD yarn start
-
-# RUN apk add --no-cache git
-# RUN yarn global add concurrently
-# RUN yarn config set workspaces-experimental true
-
-# COPY ./entrypoint.sh /
-
-# RUN chmod +x /entrypoint.sh
-
-# WORKDIR /app
-
-# ENTRYPOINT ["sh", "/entrypoint.sh"]
