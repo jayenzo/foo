@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "target": "ES2019",
+    "module": "commonjs",
+    "esModuleInterop": true
+  },
+  "exclude": ["**/node_modules"]
+}
